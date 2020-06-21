@@ -20,6 +20,9 @@ public class SecondMain {
         HashSet<Student> dataSet=new HashSet<>();
         dataSet.addAll(data);
         ArrayList<Student> data1=new ArrayList<>(dataSet);
+        //To increase Array List capacity
+        data1.ensureCapacity(50000);
+
 
         System.out.println("Check number of objects stored "+data1.size());
         Collections.sort(data,new Comparator<Student>() {
@@ -44,6 +47,12 @@ public class SecondMain {
         Check number of objects stored 5
 
          */
+        Object[] finalList=data.toArray();
+        for(Object list:finalList){
+            Student iterator=(Student)list;
+            System.out.println("Get id is"+iterator.id+"name is "+iterator.name);
+        }
+
     }
 }
 
