@@ -3,7 +3,7 @@ package com.stacks.classes;
 import java.util.EmptyStackException;
 
 /**
- * @author dylan
+ *
  *
  */
 public class ArrayStack {

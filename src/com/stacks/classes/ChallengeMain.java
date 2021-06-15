@@ -3,7 +3,7 @@ package com.stacks.classes;
 import com.queues.classes.ChallengeQueue;
 
 /**
- * @author dylan
+ *
  *
  */
 public class ChallengeMain {

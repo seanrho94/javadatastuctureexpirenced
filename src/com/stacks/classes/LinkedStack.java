@@ -8,7 +8,7 @@ import java.util.ListIterator;
  * a LinkedList directly as our stack is because we want to restrict access to
  * the list's method to only push(), pop(), and peek()
  *
- * @author dylan
+ *
  *
  */
 public class LinkedStack {

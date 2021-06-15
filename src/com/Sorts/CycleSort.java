@@ -3,7 +3,7 @@ package com.Sorts;
 import static com.Sorts.SortUtils.less;
 import static com.Sorts.SortUtils.print;
 
-/** @author Podshivalov Nikita (https://github.com/nikitap492) */
+/** */
 class CycleSort implements SortAlgorithm {
 
   @Override

@@ -1,7 +1,7 @@
 package com.stacks.classes;
 
 /**
- * @author dylan
+ *
  *
  */
 public class Employee {

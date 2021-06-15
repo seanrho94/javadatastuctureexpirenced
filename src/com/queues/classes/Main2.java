@@ -1,7 +1,7 @@
 package com.queues.classes;
 
 /**
- * @author dylan
+ *
  *
  */
 public class Main2 {

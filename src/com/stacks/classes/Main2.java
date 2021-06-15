@@ -3,7 +3,7 @@ package com.stacks.classes;
 import java.util.LinkedList;
 
 /**
- * @author dylan
+ *
  *
  */
 public class Main2 {

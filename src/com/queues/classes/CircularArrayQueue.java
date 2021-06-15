@@ -3,7 +3,7 @@ package com.queues.classes;
 import java.util.NoSuchElementException;
 
 /**
- * @author dylan
+ *
  *
  */
 public class CircularArrayQueue {

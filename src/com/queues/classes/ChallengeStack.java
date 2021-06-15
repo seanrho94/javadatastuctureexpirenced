@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.ListIterator;
 
 /**
- * @author dylan
+ *
  *
  */
 public class ChallengeStack {
