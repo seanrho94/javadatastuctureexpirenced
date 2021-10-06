@@ -20,7 +20,8 @@ package uva;// An army of ants walk on a horizontal pole of length l cm, each wi
 // 2
 // 10 3
 // 2 6 7
-//
+// 214 7
+// 11 12 7 13 176 23 191
 // Sample Output
 // 4 8
 // 38 207
