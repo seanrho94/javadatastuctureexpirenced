@@ -1,5 +1,5 @@
 package trees.classes;
-
+import java.util.*;
 /**
  * @author dylan
  *
@@ -36,6 +36,7 @@ public class Main1 {
 		System.out.println();
 		intTree.traversePostOrder();
 		System.out.println();
+
 	}
 
 }

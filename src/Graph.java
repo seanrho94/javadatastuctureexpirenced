@@ -66,7 +66,8 @@ class Graph{
         //I printed it like this. You can print it however you want though
         for(Vertex v : nodes){
             System.out.print("vertex name: "+ v.getName() + ": ");
-            for(Edge e : v.getEdges()){
+             LinkedList<Edge> edgeList= v.getEdges();
+            for(Edge e : edgeList){
                 System.out.print("destVertex: " + e.getDestVertex().getName() + " weight: " + e.getWeight() + " | ");
             }
             System.out.print("\n");
