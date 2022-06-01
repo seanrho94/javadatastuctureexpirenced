@@ -30,8 +30,8 @@ public class ListPractice {
         }
 
         employeeList.forEach(employee -> System.out.println(employee.getFirstName()));
-        int size = employeeList.size();
-        Employee[] employeeArray = employeeList.toArray(new Employee[size]);
+        int employeeArraySize = employeeList.size();
+        Employee[] employeeArray = employeeList.toArray(new Employee[employeeArraySize]);
         for (Employee employee : employeeArray) {
             System.out.println(employee);
         }
