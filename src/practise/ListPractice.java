@@ -39,5 +39,15 @@ public class ListPractice {
         System.out.println(employeeList.contains(new Employee("Mary", "Smith", 22)));
         System.out.println(employeeList.indexOf(mary));
 
+        int[] intArr = new int[5];
+
+        for (int i = 0; i < intArr.length; i++) {
+            intArr[i] = i;
+        }
+
+        for(int i : intArr) {
+            System.out.println(i);
+        }
+
     }
 }
